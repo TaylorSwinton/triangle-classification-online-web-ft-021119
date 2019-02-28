@@ -8,12 +8,19 @@ class Triangle
     @length_3 = length_3
   end
 
+  #What has to happen to make it fail?
+    #A side is not larger than 0
+    #The sum of the lengths of 2 sides do not exceed the length of one side
+
   def kind
     array_of_lengths = [@length_1, @length_2, @length_3]
-    if
 
-    else
-
+    array_of_lengths.each do |length|
+      if length > 0.0 && 
+        
+      else
+        
+      end
     end
   end
 
