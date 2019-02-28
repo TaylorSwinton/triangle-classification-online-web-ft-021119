@@ -17,11 +17,11 @@ class Triangle
     lengths_in_order = array_of_lengths.sort
 
     if lengths_in_order.include?(0) || lengths_in_order[0] + lengths_in_order[1] <= lengths_in_order[2]
-      
+
     else
-      
+
     end
-    
+
   end
 
   class TriangleError < StandardError
