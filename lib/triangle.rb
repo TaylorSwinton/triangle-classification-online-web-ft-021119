@@ -9,8 +9,12 @@ class Triangle
   end
 
   def kind
-    sum_of_lengths = @length_1 + @length_2 + @length_3
-    two_of_lengths = @length_1 + @length_2
+    array_of_lengths = [@length_1, @length_2, @length_3]
+    if 
+      
+    else
+      
+    end
   end
 
   class TriangleError < StandardError
