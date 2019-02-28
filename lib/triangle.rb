@@ -22,9 +22,9 @@ class Triangle
       if lengths_in_order[0] == lengths_in_order[1] && lengths_in_order[1] == lengths_in_order[2]
         :equilateral
       elsif lengths_in_order[0] != lengths_in_order[1] && lengths_in_order[1] != lengths_in_order[2]
-
+        :scalene
       else
-
+        :isosceles
       end
     end
 
