@@ -10,10 +10,10 @@ class Triangle
 
   def kind
     array_of_lengths = [@length_1, @length_2, @length_3]
-    if 
-      
+    if
+
     else
-      
+
     end
   end
 
