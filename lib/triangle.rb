@@ -19,10 +19,10 @@ class Triangle
     if lengths_in_order.include?(0) || lengths_in_order[0] + lengths_in_order[1] <= lengths_in_order[2]
       raise TriangleError
     else
-      if 
-        
+      if
+
       else
-        
+
       end
     end
 
