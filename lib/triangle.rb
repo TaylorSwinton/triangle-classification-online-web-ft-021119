@@ -14,9 +14,9 @@ class Triangle
 
   def kind
     array_of_lengths = [@length_1, @length_2, @length_3]
-
+    lengths_in_order = array_of_lengths.sort
     array_of_lengths.each do |length|
-      if length > 0.0 &&
+      if length > 0.0 && array_of_lengths.inject(length)
 
       else
 
