@@ -11,7 +11,7 @@ class Triangle
   def kind
     sum_of_lengths = @length_1 + @length_2 + @length_3
     two_of_lengths = @length_1 + @length_2
-    if 
+    if
 
     else
 
