@@ -16,10 +16,10 @@ class Triangle
     array_of_lengths = [@length_1, @length_2, @length_3]
 
     array_of_lengths.each do |length|
-      if length > 0.0 && 
-        
+      if length > 0.0 &&
+
       else
-        
+
       end
     end
   end
