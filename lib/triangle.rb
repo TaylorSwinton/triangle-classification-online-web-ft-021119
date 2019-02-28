@@ -21,7 +21,7 @@ class Triangle
     else
       if lengths_in_order[0] == lengths_in_order[1] && lengths_in_order[1] == lengths_in_order[2]
         :equilateral
-      elsif condition
+      elsif lengths_in_order[0] != lengths_in_order[1] && lengths_in_order[1] != lengths_in_order[2]
 
       else
 
